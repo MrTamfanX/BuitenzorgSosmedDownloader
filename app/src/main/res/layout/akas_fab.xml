@@ -1,0 +1,58 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="right|bottom"
+		android:orientation="vertical"
+		android:layout_gravity="right|bottom">
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="16dp"
+			android:layout_marginBottom="10dp"
+			android:padding="8dp"
+			android:background="#388E3C"
+			android:text="Upload Messenger Lite"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"/>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="16dp"
+			android:layout_marginBottom="10dp"
+			android:padding="8dp"
+			android:background="#0D47A1"
+			android:text="Upload Facebook Lite"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"/>
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="16dp"
+			android:padding="8dp"
+			android:background="#0D47A1"
+			android:text="Upload WhatsApp"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF"/>
+		<LinearLayout
+			android:id="@+id/fab_default"
+			android:layout_width="56dp"
+			android:layout_height="56dp"
+			android:layout_marginLeft="16dp"
+			android:layout_marginTop="16dp"
+			android:layout_marginRight="16dp"
+			android:layout_marginBottom="64dp"
+			android:padding="8dp"
+			android:orientation="vertical"/>
+	</LinearLayout>
+</LinearLayout>
